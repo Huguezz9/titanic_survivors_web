@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<table class="table">
+        <tbody>
+            {% for passenger in passengers %}
+            <tr>
+                <td>{{ passenger[0] }}</td>
+                <td>{{ passenger[1] }}</td>
+                <td>{{ passenger[2] }}</td>
+                <td>{{ passenger[3] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

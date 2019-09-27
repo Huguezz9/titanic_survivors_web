@@ -1,0 +1,14 @@
+PassengerId,Name,Pclass,Sex,Age,Cabin,SibSp,Parch,Ticket,Fare,Embarked
+892,Mrs. Duckface,2,female,24,T,1,1,555,45,S
+912,Mr. Aimsoded,3,male,70,G,0,0,2093,69,S
+991,"Somuch, Mr. Gunnadai",3,male,79,G,0,0,948,43,S
+964,"Ysempassable, Mrs. Furmetudai",1,female,29,A,1,0,3285,43,C
+997,Lolailo Lelolo,2,female,45,E,1,3,3750,3,S
+962,"Parrandolo, Smaitandolo",3,male,65,G,1,3,122,30,S
+993,"Lionheart, King",1,female,24,B,2,0,3401,0,S
+915,Mr. Doguerson ,2,male,34,C,3,5,2012,28,Q
+944,Mrs. Cutiepie,1,female,21,C,1,1,680,44,S
+945,Mrs. Whatever ,1,female,21,C,1,1,80,8,S
+994,Hugo,3,male,45,C,3,1,1237,27,Q
+931,Hugo,3,male,29,E,2,3,1323,19,S
+982,Liiikls,1,female,21,B,2,1,2332,42,S

@@ -1,0 +1,27 @@
+body {
+    background-image: url(titanic_index.jpg);
+}
+
+#title1 {
+    color:white;
+    text-shadow: 0.1em 0.1em #333
+}
+#mafe {
+    color:white;
+    text-shadow: 0.1em 0.1em #333
+}
+
+#after {
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em #333;
+    font-size: 100px;
+    padding-top: 90px;
+}
+
+#ted {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
