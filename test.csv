@@ -15,3 +15,4 @@ PassengerId,Name,Pclass,Sex,Age,Cabin,SibSp,Parch,Ticket,Fare,Embarked
 945,Alive,1,female,24,A,1,1,29,80,Q
 899,aliveeee,1,female,26,D,1,1,3255,36,Q
 976,alvieeee,1,female,20,C,1,1,431,20,S
+987,wds sd,2,female,56,G,4,2,527,19,S
