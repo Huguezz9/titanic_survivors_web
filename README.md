@@ -1,16 +1,10 @@
 Titanic Survivors
 
-Flask has to be run before to work with the command line: flask run.
+Flask has to be installed and run before to work. Command line in the directory: flask run.
 
 Be sure to download first the following libraries.
 Python3:
-  Needs to pip install: Numpy, Pandas, Seaborn, Scikit-learn
-
-Numpy: pip install numpy
-Pandas: pip install pandas
-Seaborn: pip install seaborn
-Scitik-learn: pip install scikit-learn
-
+  Numpy, Pandas, Seaborn, Scikit-learn
 
 Simple website built with html, css, jinja that request the user to buy an imaginary ticket for the famous RMS Titanic trip. The values are written into a csv file
 thanks to a python program that uses flask as a framework. The program imports a function called main() from helpers.py, the function reads 2 csv files: the first one,
@@ -22,7 +16,7 @@ based on different features like age, sex, class of the ticket, cabin number etc
 survive and "False" if it wouldn't. Based on the result of this function flask will render "survived.html" or "dead.html" respectively.
 
 Made by Hugo Palomar.
-07/16/2019
+2019
 Madrid, Spain
 
 Inspiration from Kaggle ML competition: "Titanic: Machine Learning from disaster"
