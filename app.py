@@ -8,7 +8,7 @@ import random
 app = Flask(__name__)
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True)
 
 # Reload templates when they are changed
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -30,7 +30,7 @@ def get_index():
 
 @app.route("/form", methods=["GET"])
 def get_form():
-    return render_template("/form")
+    return render_template("form.html")
 
 
 @app.route("/form", methods=["POST"])
@@ -47,6 +47,6 @@ def post_form():
 @app.route("/sheet", methods=["GET"])
 def get_sheet():
     if main():
-        return render_template("/survived")
+        return render_template("survived.html")
     else:
-        return render_template("/dead")
+        return render_template("dead.html")

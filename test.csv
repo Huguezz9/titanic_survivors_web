@@ -12,3 +12,6 @@ PassengerId,Name,Pclass,Sex,Age,Cabin,SibSp,Parch,Ticket,Fare,Embarked
 994,Hugo,3,male,45,C,3,1,1237,27,Q
 931,Hugo,3,male,29,E,2,3,1323,19,S
 982,Liiikls,1,female,21,B,2,1,2332,42,S
+945,Alive,1,female,24,A,1,1,29,80,Q
+899,aliveeee,1,female,26,D,1,1,3255,36,Q
+976,alvieeee,1,female,20,C,1,1,431,20,S
