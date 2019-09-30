@@ -117,7 +117,7 @@ def main():
     test = test.drop(features_drop, axis=1)
     train = train.drop(['PassengerId'], axis=1)
 
-    print(test.head())
+    # print(test.head())
 
     family_mapping = {1: 0, 2: 0.4, 3: 0.8, 4: 1.2, 5: 1.6, 6: 2, 7: 2.4, 8: 2.8, 9: 3.2, 10: 3.6, 11: 4}
     for dataset in train_test_data:
@@ -153,4 +153,4 @@ def main():
         return True
     else:
         return False
-print(main())
+main()
